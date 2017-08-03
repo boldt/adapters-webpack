@@ -6,6 +6,8 @@
   "author": "Dennis Boldt",
   "license": "MIT",
   "dependencies": {
+    "adapters-node": "github:boldt/adapters-node",
+    "adapters-browser": "github:boldt/adapters-browser",
     "bluebird": "^3.5.0",
     "node-webcrypto-ossl": "^1.0.21",
     "text-encoding": "^0.6.4"

@@ -1,5 +1,13 @@
 # Adapers for webpack
 
+## Prepare
+
+Run:
+
+```
+npm install
+```
+
 ## Build Node Env
 
 ```
