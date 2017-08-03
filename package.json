@@ -2,7 +2,7 @@
   "name": "adapters",
   "version": "0.0.4",
   "description": "",
-  "main": "adapters.js",
+  "main": "src/adapters.js",
   "author": "Dennis Boldt",
   "license": "MIT",
   "dependencies": {
