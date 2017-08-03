@@ -1,4 +1,4 @@
-# Adapers for webpack
+# Adapters for webpack
 
 ## Prepare
 
