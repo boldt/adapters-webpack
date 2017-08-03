@@ -1,0 +1,21 @@
+{
+  "name": "adapters",
+  "version": "0.0.4",
+  "description": "",
+  "main": "adapters.js",
+  "author": "Dennis Boldt",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "node-webcrypto-ossl": "^1.0.21",
+    "text-encoding": "^0.6.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
