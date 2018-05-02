@@ -1,12 +1,5 @@
-all:
-	make browser
-	make node
+default:
+	@echo "n/a"
 
-browser:
-	@echo "##### BUILD BROWSER #####"
-	webpack --config webpack.config.browser.js
-
-node:
-	@echo "##### BUILD NODE #####"
-	webpack --config webpack.config.node.js
-
+clean:
+	rm -rf dist/node dist/browser node_modules

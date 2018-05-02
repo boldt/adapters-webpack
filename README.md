@@ -2,18 +2,15 @@
 
 ## Prepare
 
-Run:
-
 ```
+nvm install
 npm install
 ```
 
 ## Build Node Env
 
 ```
-make node
-# OR
-webpack --config webpack.config.node.js
+npm run build-node
 ```
 
 Test:
@@ -25,15 +22,14 @@ node dist/node/app.js
 ## Build Browser Env
 
 ```
-make browser
-# OR
-webpack --config webpack.config.browser.js
+npm run build-browser
+npm run build-browser-dev-server
 ```
 
 Open `dist/index.html` and see the console.
 
-## Build Node and Browser Env
+## Clean
 
 ```
-make
+make clean
 ```
