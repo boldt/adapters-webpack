@@ -29,14 +29,6 @@ npm run build-browser
 
 Open `dist/index.html` and see the console.
 
-### Integrated web server
-
-```
-npm run build-browser-dev-server
-```
-
-Open http://localhost:8080/dist/ and see the console.
-
 ## Clean
 
 ```

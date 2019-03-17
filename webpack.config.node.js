@@ -1,6 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+// Required to handle external libs such as wrtc.node
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
